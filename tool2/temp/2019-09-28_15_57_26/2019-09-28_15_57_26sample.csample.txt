@@ -1,0 +1,10 @@
+    1 +-main() <int main (int argc, char **argv) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:7>
+    2   +-c2() <void c2 (int i) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:26>
+    3   | \-c3() <void c3 (int i) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:22>
+    4   |   \-c4() <void c4 (int i) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:18>
+    5   |     \-assert()
+    6   \-c1() <void c1 (int i) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:30>
+    7     \-c2() <void c2 (int i) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:26>
+    8       \-c3() <void c3 (int i) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:22>
+    9         \-c4() <void c4 (int i) at ../tool2/temp/2019-09-28_15:57:26/2019-09-28_15:57:26sample.c:18>
+   10           \-assert()
